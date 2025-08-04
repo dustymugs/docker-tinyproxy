@@ -42,7 +42,7 @@ if [ -z "$IMAGE_TAG" ]; then
 fi
 
 IMAGE_ROOT="tinyproxy"
-REMOTE_IMAGE_ROOT="server"
+REMOTE_IMAGE_ROOT="tinyproxy"
 DOCKERFILE="Dockerfile"
 
 BASE_IMAGE="dustymugs/${IMAGE_ROOT}:$IMAGE_TAG"

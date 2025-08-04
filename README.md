@@ -1,3 +1,10 @@
+```bash
+aws ecr get-login-password --region <AWS_REGION> | docker login --username AWS --password-stdin <AWS_ACCOUNT_ID>.dkr.ecr.us-east-2.amazonaws.com
+./build.sh -i amd64 -r <AWS_ACCOUNT_ID>.dkr.ecr.us-east-2.amazonaws.com/<REPO_NAME>
+```
+
+=================================
+
 # Docker Tinyproxy ![alt text](https://raw.githubusercontent.com/daniel-middleton/docker-tinyproxy/master/other/banu_logo.png "Banu!")
 A quick and easy Dockerised Tinyproxy with configurable ACL.
 
